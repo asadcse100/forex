@@ -179,7 +179,7 @@
                             if ($coin_img) {
                                 // For Avatar image
                                 var $output =
-                                    '<img src="' + assetPath + 'assets/images/cryptoCurrency/' + $coin_img + '" alt="'+$symbol+'" width="32" height="32">';
+                                    '<img src="' + assetPath + 'storage/assets/images/cryptoCurrency/' + $coin_img + '" alt="'+$symbol+'" width="32" height="32">';
                             } else {
                                 // For Avatar badge
                                 var stateNum = full['status'];

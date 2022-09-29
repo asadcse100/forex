@@ -142,10 +142,10 @@ $space = "&nbsp;";
                                 <span class="data-details-docs-title">{{ $kyc->documentType == 'nidcard' ? 'Front Side' : 'Document' }}</span>
                                 <div class="data-doc-item data-doc-item-lg">
                                     <div class="data-doc-image">
-                                        <img class="img-fluid img-thumbnail" src="{{ getImage('assets/images/kyc/'.$kyc->document) }}">
+                                        <img class="img-fluid img-thumbnail" src="{{ getImage('storage/assets/images/kyc/'.$kyc->document) }}">
                                     </div>
                                     <ul class="data-doc-actions">
-                                        <li><a href="{{ getImage('assets/images/kyc/'.$kyc->document) }}" target="_blank" ><i class="bi bi-cloud-download text-white"></i></a></li>
+                                        <li><a href="{{ getImage('storage/assets/images/kyc/'.$kyc->document) }}" target="_blank" ><i class="bi bi-cloud-download text-white"></i></a></li>
                                     </ul>
                                 </div>
                             </li>{{-- li --}}
@@ -155,10 +155,10 @@ $space = "&nbsp;";
                                 <span class="data-details-docs-title">{{ $kyc->documentType == 'nidcard' ? 'Back Side' : 'Proof' }}</span>
                                 <div class="data-doc-item data-doc-item-lg">
                                     <div class="data-doc-image">
-                                        <img class="img-fluid img-thumbnail" src="{{ getImage('assets/images/kyc/'.$kyc->document2) }}">
+                                        <img class="img-fluid img-thumbnail" src="{{ getImage('storage/assets/images/kyc/'.$kyc->document2) }}">
                                     </div>
                                     <ul class="data-doc-actions">
-                                        <li><a href="{{ getImage('assets/images/kyc/'.$kyc->document2) }}" target="_blank"><i class="bi bi-cloud-download text-white"></i></a></li>
+                                        <li><a href="{{ getImage('storage/assets/images/kyc/'.$kyc->document2) }}" target="_blank"><i class="bi bi-cloud-download text-white"></i></a></li>
                                     </ul>
                                 </div>
                             </li>{{-- li --}}
@@ -169,10 +169,10 @@ $space = "&nbsp;";
                                 <span class="data-details-docs-title">Proof</span>
                                 <div class="data-doc-item data-doc-item-lg">
                                     <div class="data-doc-image">
-                                        <img class="img-fluid img-thumbnail" src="{{ getImage('assets/images/kyc/'.$kyc->document3) }}">
+                                        <img class="img-fluid img-thumbnail" src="{{ getImage('storage/assets/images/kyc/'.$kyc->document3) }}">
                                     </div>
                                     <ul class="data-doc-actions">
-                                        <li><a href="{{ getImage('assets/images/kyc/'.$kyc->document3) }}" target="_blank"><i class="bi bi-cloud-download text-white"></i></a></li>
+                                        <li><a href="{{ getImage('storage/assets/images/kyc/'.$kyc->document3) }}" target="_blank"><i class="bi bi-cloud-download text-white"></i></a></li>
                                     </ul>
                                 </div>
                             </li>{{-- li --}}

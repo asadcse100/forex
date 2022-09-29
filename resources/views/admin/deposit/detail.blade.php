@@ -79,7 +79,7 @@
                                 <div class="row mt-4">
                                     <div class="col-md-8">
                                         <h6>{{inputTitle($k)}}</h6>
-                                        <img src="{{getImage('assets/images/verify/deposit/'.$val->field_name)}}" alt="{{ __('locale.Image')}}">
+                                        <img src="{{getImage('storage/assets/images/verify/deposit/'.$val->field_name)}}" alt="{{ __('locale.Image')}}">
                                     </div>
                                 </div>
                             @else
